@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+body {
+  background-color: #4105e3;
+}
+h2 {
+  font-size: 2rem;
+}
+a {
+  font-size: 1rem;
+}
+p {
+  font-size: 1.5rem;
+}
+/*encabezado*/
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../multimedia/img-main.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+}
+.header-elements {
+  text-align: center;
+}
+.header-elements a {
+  text-decoration: none;
+  color: white;
+}
+.header-elements button {
+  width: 50%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #0d78fd;
+}
+/*sobre mi*/
+.aboutME {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.profile-content {
+  width: 90%;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+}
+.profile-content img {
+  width: 30%;
+  height: 50%;
+  border-radius: 50%;
+}
+.profile-content p,
+.skill p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+/*habilidades*/
+.skills {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  flex: 1 1 50%;
+}
+.skill {
+  flex: 1 1 25%;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+/*formulario*/
+.contact {
+  margin: 10%;
+  border-radius: 10px;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../multimedia/check-form_116472.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+form {
+  display: flex;
+  flex: 1 1 70%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.element label {
+  color: #0d78fd;
+}

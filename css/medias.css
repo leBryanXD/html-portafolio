@@ -1,0 +1,34 @@
+@media (min-width: 280px) and (max-width: 480px) {
+  body {
+    background-color: lightsalmon;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: powderblue;
+  }
+  .nav-images img {
+    width: 10%;
+    height: 80%;
+  }
+  .nav-elements a {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: limegreen;
+  }
+  .nav-elements a {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1601px) {
+  body {
+    background-color: seagreen;
+  }
+  .nav-elements a {
+    font-size: 4.5rem;
+  }
+}
